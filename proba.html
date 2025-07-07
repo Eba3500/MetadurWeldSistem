@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metadur - Echipamente de sudură</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Inter&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --yellow: #ffe600;
+      --navy: #26283e;
+      --light-gray: #f7f7f7;
+      --dark-text: #1c1c1c;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      color: var(--dark-text);
+      background-color: var(--light-gray);
+    }
+
+    header {
+      background-color: var(--navy);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav {
+      background: white;
+      padding: 0.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      color: var(--dark-text);
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--yellow);
+    }
+
+    .hero {
+      background-color: var(--navy);
+      color: white;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+
+    .hero h1 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero button {
+      background: var(--yellow);
+      color: var(--navy);
+      border: none;
+      padding: 1rem 2rem;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .hero button:hover {
+      background-color: #e4d400;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--navy);
+    }
+
+    footer {
+      background-color: var(--navy);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo2.png" alt="Metadur Logo" />
+    <div>
+      <strong>Contact:</strong> +40 722 XXX XXX | contact@metadur.ro
+    </div>
+  </header>
+
+  <nav>
+    <div>
+      <a href="#">Acasă</a>
+      <a href="#despre">Despre</a>
+      <a href="#produse">Produse</a>
+      <a href="#servicii">Servicii</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Echipamente de sudură profesionale pentru performanță industrială</h1>
+    <button>Vezi produsele</button>
+  </section>
+
+  <section class="section" id="despre">
+    <h2>Despre Metadur</h2>
+    <p>Cu peste 30 de ani de experiență în domeniul sudurii, Metadur oferă echipamente și soluții adaptate cerințelor industriale actuale.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Metadur. Toate drepturile rezervate.</p>
+  </footer>
+</body>
+</html>

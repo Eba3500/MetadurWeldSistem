@@ -1,0 +1,389 @@
+/* Stil general */
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+/* Bara de sus cu logo + informații contact */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 50px;
+  background-color: #26283e;
+  flex-wrap: wrap; /* pentru responsive */
+  gap: 10px;
+}
+
+/* Grupul de contact */
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #fcfcfc;
+   border-left: 1px solid #ccc;
+  padding-left: 15px;
+ 
+
+}
+.contact-item-location {
+border-left: none !important;
+}
+
+
+.contact-item a {
+  color: #fcfcfc;
+  text-decoration: none;
+  
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+/* Bara de navigație */
+.nav-bar {
+  background-color: #fcfcfc;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0px 0;
+  margin: 0;
+  gap: 30px;
+}
+
+.logo {
+  height: 40px;
+  display: flex;
+ margin-bottom: -20px;
+ padding-left: 30px;
+}
+
+
+.nav-bar li a {
+  color: #26283e;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
+  padding-top: 1;
+ 
+}
+
+.nav-bar li a:hover {
+   text-decoration: underline; /* adaugă subliniere la hover */
+}
+
+.nav-bar ul li + li {
+  border-left: 1px solid #ccc;
+  padding-left: 15px;
+}
+
+
+/* Hero Section */
+.hero {
+ 
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 30px;
+  padding: 87px 20px;
+  background-image:url("background777.jpg");
+  background-size: 1430px;
+  
+
+ }
+
+
+ /* Secțiunea de contact */
+#contact {
+  background-color: #fcfcfc;
+  padding: 10px 20px;
+}
+
+#contact h3 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Container */
+#contact .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Formularul */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Inputuri și textarea */
+#contact input,
+#contact textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ccc;
+  transition: border-color 0.3s;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #fee80d;
+  outline: none;
+}
+
+/* Textarea mai înaltă */
+#contact textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Butonul */
+#contact button {
+  background-color: #fee80d;
+  color: #26283e;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold;
+}
+
+#contact button:hover {
+  background-color: #e89b00;
+}
+
+
+.hero h2 {
+   font-size: 60px; /* Modifică mărimea titlului */
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+
+
+
+
+
+
+/* Grid contact */
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+/* Coloana cu date de contact */
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+  color: #333;
+  font-size: 18px;
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #222;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.contact-info p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Formularul de contact */
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #222;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+.map-section {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+.map-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #777;
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #26283e;
+}
+
+.map-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+/* Stilizare pentru întregul footer */
+.site-footer {
+  background-color: #26283e;
+  color: #fcfcfc; /* textul din footer va fi alb */
+  padding: 10px;
+  font-family: 'Segoe UI', sans-serif;
+ 
+}
+
+/* Asigură că toate linkurile din footer sunt alb, cu hover definit */
+.site-footer a {
+  color: #fcfcfc; /* linkurile alb */
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Containerul principal al coloanelor din footer */
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 20px;
+}
+
+/* Stilizare pentru fiecare coloană; poți ajusta padding-ul după cum dorești */
+.footer-logo,
+.footer-contact,
+.footer-links {
+  /* dacă dorești, poți aplica padding aici */
+  padding-right: 50px;
+}
+
+/* Stilizare pentru titlurile din coloane */
+.site-footer h2,
+.footer-contact h3,
+.footer-links h3,
+.footer-about h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #777;
+  padding-bottom: 5px;
+}
+
+  
+  /* se va mosteni culoarea albă din .site-footer */
+
+
+/* Stil pentru paragrafe și elementele de listă */
+.site-footer p,
+.footer-links li {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+/* Listă fără puncte în navigare */
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Stilizare pentru secțiunea socială; dacă ai iconițe și text */
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-btn-yellow {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #FFD700;
+  color: #000 !important;
+
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-btn-yellow:hover {
+  background-color: #e6c200;
+  transform: translateY(-2px);
+}
+
+.footer-about p {
+  max-width: 400px;       /* lățimea fixă a zonei de text */
+  white-space: normal;    /* permite înfășurarea textului */
+  overflow-wrap: break-word;  /* taie cuvintele lungi dacă e nevoie */
+
+}
+
+ 
+/* Stilizare pentru partea de jos a footerului */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  /* Dacă vrei ca și aici textul să fie alb, înlocuiește #aaa cu #fcfcfc */
+  color: #fcfcfc;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+}
